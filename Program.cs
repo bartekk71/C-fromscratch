@@ -37,6 +37,14 @@ namespace CsharpBasic
             float floatNumber = 1.5F;
             decimal decimalNumber = 1.5M;
             double dubleNumber = 1.5;
+
+            string message1;
+
+            string message2 = null;
+
+            string message3 = string.Empty;
+
+
         }
     }
 }
