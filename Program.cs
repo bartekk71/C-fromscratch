@@ -39,12 +39,30 @@ namespace CsharpBasic
             double dubleNumber = 1.5;
 
             string message1;
+            message1 = "some value";
+            Console.WriteLine(message1);
 
             string message2 = null;
+            Console.WriteLine(message2);
 
             string message3 = string.Empty;
 
+            string text = "some text";
 
+            string windowsLocation = "c\\:windows";
+
+            string fontsFolder = @"c\\windows\fonts";
+
+            string concatenated = string.Concat(text, " sto me");
+            Console.WriteLine(concatenated);
+
+            string concatenated2 = text + "to" + "me";
+            Console.WriteLine(concatenated2);
+
+            //string interpolated = 
+            string interpolated = $"{text} to me";
+
+          
         }
     }
 }
