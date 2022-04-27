@@ -196,12 +196,26 @@ namespace CsharpBasic
             //intParse, floatParse, shortParse
             string userInput2 = Console.ReadLine();
 
-            float floatValue = float.Parse(userInput2);
-            short shortValue = short.Parse(userInput2);
+            // float floatValue = float.Parse(userInput2);
+            // short shortValue = short.Parse(userInput2);
 
-            //board
+            //Arrays
+            string[] cars = { "Volvo", "BMW", "Renault" };
+            Console.WriteLine(cars[0]);
+            Console.WriteLine(cars[1]);
+            Console.WriteLine(cars[2]);
 
+            int arrayLength = cars.Length;
+            Console.WriteLine(arrayLength);
 
+            //While
+            int i = 0;
+
+            while(i <= 5)
+            {
+                Console.WriteLine(i);
+                i++;
+            }
         }
     }
 }
