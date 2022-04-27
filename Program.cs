@@ -174,6 +174,25 @@ namespace CsharpBasic
             Console.WriteLine("Bye");
 
             //switch
+            switch (DateTime.Now.DayOfWeek)
+            {
+                case DayOfWeek.Monday:
+                    Console.WriteLine("It's Monday");
+                    break;
+                case DayOfWeek.Wednesday:
+                    Console.WriteLine("It's Wednesday");
+                    break;
+                case DayOfWeek.Friday:
+                    Console.WriteLine("The last day of the work week");
+                    break;
+                case DayOfWeek.Saturday:
+                    Console.WriteLine("The first day of the weekend");
+                    break;
+                case DayOfWeek.Sunday:
+                    Console.WriteLine("The second day of the weekend");
+                    break;
+            }
+
 
         }
     }
