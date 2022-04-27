@@ -144,6 +144,19 @@ namespace CsharpBasic
             Console.WriteLine(greaterNumber);
 
             //Comments
+            //this is single line comment
+            /* this 
+              is 
+              multiline 
+              column */
+
+            /// <summary>
+            /// main method description
+            /// </summary>
+
+
+            //if else
+
 
         }
     }
