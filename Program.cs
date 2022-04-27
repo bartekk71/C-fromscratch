@@ -217,7 +217,26 @@ namespace CsharpBasic
                 i++;
             }
 
+            //Check array!
+            while (i < cars.Length)
+            {
+                Console.WriteLine(cars[i]);
+                i++;
+            }
 
+
+            //Do while
+            string userInput3;
+
+            do
+            {
+                //code to be executed
+                userInput3 = Console.ReadLine();
+                Console.WriteLine($"Echo: {userInput} ");
+
+            } while (userInput3 != "x");
+
+            //For
 
 
         }
