@@ -156,7 +156,24 @@ namespace CsharpBasic
 
 
             //if else
+            string userInput = Console.ReadLine();
 
+            int yearOfBirth = int.Parse(userInput);
+
+            bool isUserOver18 = DateTime.Now.Date.Year - yearOfBirth > 18;
+
+            if (isUserOver18)
+            {
+                Console.WriteLine("Hello");
+            }
+            else
+            {
+                Console.WriteLine("Acces Denied");
+            }
+
+            Console.WriteLine("Bye");
+
+            //switch
 
         }
     }
