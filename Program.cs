@@ -193,6 +193,14 @@ namespace CsharpBasic
                     break;
             }
 
+            //intParse, floatParse, shortParse
+            string userInput2 = Console.ReadLine();
+
+            float floatValue = float.Parse(userInput2);
+            short shortValue = short.Parse(userInput2);
+
+            //board
+
 
         }
     }
