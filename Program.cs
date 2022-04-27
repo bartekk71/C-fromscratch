@@ -233,10 +233,16 @@ namespace CsharpBasic
                 //code to be executed
                 userInput3 = Console.ReadLine();
                 Console.WriteLine($"Echo: {userInput} ");
-
+                //break input x
             } while (userInput3 != "x");
 
             //For
+            /* for (int j = 0, j < cars.Length, j++)
+            {
+                //code to be executed
+                Console.WriteLine(cars[j]);
+            } */
+
 
 
         }
